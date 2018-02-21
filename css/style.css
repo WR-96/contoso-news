@@ -1,20 +1,14 @@
 header {
 	padding: 20px 50px;	
-	font-family: 'Contail One';
+	font-family: 'Contrail One';
 }
 
 body {
-	font-family: 'News Cycle';
+	font-family: 'News Cycle' !important;
 }
 
 main {
 	padding: 5px 10px;
-}
-
-article {
-	margin: 5px 0px;
-	padding: 5px 5px;
-	box-shadow: -1px -1px 6px #888888;
 }
 
 section#carousel > figure > img {
@@ -37,6 +31,14 @@ section#carousel > figure.visible > figcaption {
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.5em;
+}
+
+.carousel-inner {
+	text-align: center;
+}
+
+.carousel .item > img {
+	display: inline-block;
 }
 
 header h1 {
@@ -65,8 +67,8 @@ article > time {
 }
 
 @font-face {
-	font-family: 'Contail One';
-	src: url('../fonts/contail_one.ttf') format('truetype');
+	font-family: 'Contrail One';
+	src: url('../fonts/contrail_one.ttf') format('truetype');
 }
 
 @media print {
